@@ -3,7 +3,6 @@ name := "picalc"
 version := "1.0"
 
 
-libraryDependencies +=
-    "com.typesafe.akka" %% "akka-actor" % "2.4.16"
-libraryDependencies += "org.scalaz" %% "scalaz-core" % "7.2.8"
+libraryDependencies += "org.typelevel" %% "cats" % "0.9.0"
+libraryDependencies += "org.typelevel" %% "cats-free" % "0.9.0"
 scalaVersion := "2.12.1"
